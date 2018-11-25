@@ -1,0 +1,1 @@
+"use strict";var fs=require("fs");module.exports=function(e){return new Promise(function(n,t){fs.appendFile("message.txt","".concat(e,"\n"),function(e){e?t():n()})})};
